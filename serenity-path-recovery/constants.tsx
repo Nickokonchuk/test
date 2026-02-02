@@ -1,6 +1,36 @@
 
-import React from 'react';
 import { Program, Location, NavItem } from './types';
+
+export const SEO_CONFIG = {
+  home: {
+    title: "Serenity Path Recovery | Addiction & Mental Health Treatment",
+    description: "Professional addiction treatment and mental health rehabilitation. Accredited clinical care for drug and alcohol dependency in safe, healing environments.",
+  },
+  programs: {
+    title: "Our Treatment Programs | Serenity Path Recovery",
+    description: "Explore our evidence-based programs including Medical Detox, Residential Treatment, and Dual Diagnosis care tailored to your needs.",
+  },
+  about: {
+    title: "About Our Clinical Team | Serenity Path Recovery",
+    description: "Learn about the mission, philosophy, and expert medical team behind Serenity Path Recovery centers.",
+  },
+  locations: {
+    title: "Treatment Facility Locations | Serenity Path Recovery",
+    description: "Find a Serenity Path Recovery center near you. Locations in Los Angeles, Miami, Austin, and Phoenix.",
+  },
+  insurance: {
+    title: "Verify Your Insurance Coverage | Confidential Rehab Assessment",
+    description: "Quickly and securely verify your insurance benefits for addiction treatment. We accept most major PPO and HMO plans.",
+  },
+  resources: {
+    title: "Recovery Resources & Addiction Education | Serenity Path",
+    description: "Educational guides, blog articles, and tools to help you and your family understand the journey to sobriety.",
+  },
+  contact: {
+    title: "Contact Us 24/7 | Confidential Admissions Support",
+    description: "Get immediate help. Reach out to our admissions team 24/7 for a confidential consultation about addiction treatment.",
+  }
+};
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Programs', path: '/programs' },
